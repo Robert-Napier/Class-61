@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#game {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9scale);
+}
+
+.line {
+    height: 6px;
+    background-color: aqua;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#maps iframe {
+    width: 100%;
+}
